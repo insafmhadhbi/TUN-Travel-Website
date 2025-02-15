@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>websiteTUN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/df1b91d3df.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<link rel="stylesheet" href="TUN.css">
+</head>
+
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bar"></div>
+        <a href="#" class="logo"><span>TUN</span>Travel</a>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Book">Book</a>
+            <a href="#Packages">Packages</a>
+            <a href="#Services">Services</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Review">Review</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <div class="login-form-container">
+        <i class="fas fa-time" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password?<a href=#>click here</a></p>
+            <p>don't have an account?<a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <section class="home" id="Home">
+        <div class="content">
+            <h3><strong>come to tunisia</strong> </h3>
+            <p>Live a life of no regrets<br> adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active"
+                data-src="https://ak.picdn.net/shutterstock/videos/14503648/preview/stock-footage-sidi-bou-said-buildings-and-sea-panorama-view-shot-of-blue-sea-and-sky-from-above-sidi-bou-said.webm"></span>
+            <span class="vid-btn"
+                data-src="https://ak.picdn.net/shutterstock/videos/1082548954/preview/stock-footage-a-slow-circling-drone-shot-of-an-ancient-village-in-tunisia-during-a-warm-sunset-hitting-the-rocky.webm"></span>
+            <span class="vid-btn"
+                data-src="https://ak.picdn.net/shutterstock/videos/1012041002/preview/stock-footage-aerial-view-of-ruins-of-the-biggest-coliseum-el-jem-tunisia.webm"></span>
+            <span class="vid-btn"
+                data-src="https://ak.picdn.net/shutterstock/videos/1064530339/preview/stock-footage-sea-wave-on-a-sandy-beach-aerial-view-of-a-tropical-beach-with-ocean-waves.webm"></span>
+            <span class="vid-btn"
+                data-src="https://ak.picdn.net/shutterstock/videos/1072466429/preview/stock-footage-aerial-drone-view-sousse-touristic-area-of-tunisia-tunis-sea-side-tunisia-from-the-sky.webm"></span>
+        </div>
+        <div class="video-container">
+            <video
+                src="https://ak.picdn.net/shutterstock/videos/14503648/preview/stock-footage-sidi-bou-said-buildings-and-sea-panorama-view-shot-of-blue-sea-and-sky-from-above-sidi-bou-said.webm"
+                id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+    <section class="Book" id="Book">
+        <h1 class="heading">
+            <span><strong>B</strong></span>
+            <span><strong>O</strong></span>
+            <span><strong>O</strong></span>
+            <span><strong>K</strong></span>
+            <span class="space"></span>
+            <span><strong>N</strong></span>
+            <span><strong>O</strong></span>
+            <span><strong>W</strong></span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="https://media.istockphoto.com/vectors/tunisia-country-design-template-linear-flat-famous-historic-sight-vector-id690457184?k=6&m=690457184&s=170667a&w=0&h=FVtcQ9k7D9i-q3M6yUg4gUb0xoNNumUZmHeIqDp6R-M="
+                    alt="">
+            </div>
+            <form action="">
+
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+
+        </div>
+
+    </section>
+
+    <section class="Packages" id="Packages">
+        <h1 class="heading">
+            <span><strong>P</strong></span>
+            <span><strong>A</strong></span>
+            <span><strong>C</strong></span>
+            <span><strong>K</strong></span>
+            <span><strong>E</strong></span>
+            <span><strong>G</strong></span>
+            <span><strong>E</strong></span>
+            <span><strong>S</strong></span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="https://image.arrivalguides.com/1500x600/08/4eb3aa5680587bc5b05f6fc4f62d9197.jpg" alt="" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Hammamet<h3>
+                            <p>jfn;sjdfndjfkdhcskdjhcjsdk</p>
+                            <div class=" stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">550D<span>750D</span></div>
+                            <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://www.planetware.com/photos-large/TUN/tunisia-sousse-great-mosque.jpg" alt="" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>sousse<h3>
+                            <p>pearl of the Sahel</p>
+                            <div class=" stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">550D<span>750D</span></div>
+                            <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://www.whereandwhen.net/site/images/illustration/monastir_550.jpg" alt="" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>monastir<h3>
+                            <p>jfn;sjdfndjfkdhcskdjhcjsdk</p>
+                            <div class=" stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">550D<span>750D</span></div>
+                            <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://africaglobalradio.com/wp-content/uploads/2022/01/The-Amphitheatre-of-El-Jem-%E2%80%93-El-Jem-Tunisia.jpg"
+                    alt="" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>el jam<h3>
+                            <p>jfn;sjdfndjfkdhcskdjhcjsdk</p>
+                            <div class=" stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">550D<span>750D</span></div>
+                            <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://www.aviontourism.com/images/800-600-crop/af596ff0-b2c1-412e-82fd-8da8d107d64d"
+                    alt="" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>djerba<h3>
+                            <p></p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">550D<span>750D</span></div>
+                            <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://globalgrasshopper.com/wp-content/uploads/2014/02/Chebika-Tunisia.webp" alt="" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Toseur<h3>
+                            <p>jfn;sjdfndjfkdhcskdjhcjsdk</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">550D<span>750D</span></div>
+                            <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="https://cdn.getyourguide.com/img/tour/61c306721aec1.jpeg/146.jpg" alt="" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Tunis<h3>
+                            <p>jfn;sjdfndjfkdhcskdjhcjsdk</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">550D<span>750D</span></div>
+                            <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="https://globalgrasshopper.com/wp-content/uploads/2014/02/Bizerte.webp" alt="" />
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>bizert<h3>
+                            <p>jfn;sjdfndjfkdhcskdjhcjsdk</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price">550D<span>750D</span></div>
+                            <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Services" id="Services">
+        <h1 class="heading">
+            <span><strong>S</strong></span>
+            <span><strong>E</strong></span>
+            <span><strong>R</strong></span>
+            <span><strong>V</strong></span>
+            <span><strong>I</strong></span>
+            <span><strong>C</strong></span>
+            <span><strong>E</strong></span>
+            <span><strong>S</strong></span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel">
+                    <h3>affordable hotels</h3>
+                    <p>lorkjdziejdidcnjudchiusdcdiu</p>
+                </i>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils">
+                    <h3>food and drinks</h3>
+                    <p>lorkjdziejdidcnjudchiusdcdiu</p>
+                </i>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn">
+                    <h3>safety gide</h3>
+                    <p>lorkjdziejdidcnjudchiusdcdiu</p>
+                </i>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-africa">
+                    <h3>around TUNISIA</h3>
+                    <p>lorkjdziejdidcnjudchiusdcdiu</p>
+                </i>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane">
+                    <h3>fastest way to travel</h3>
+                    <p>lorkjdziejdidcnjudchiusdcdiu</p>
+                </i>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking">
+                    <h3>Adventures</h3>
+                    <p>lorkjdziejdidcnjudchiusdcdiu</p>
+                </i>
+            </div>
+        </div>
+    </section>
+
+    <section class="Gallery" id="Gallery">
+        <h1 class="heading">
+            <span><strong>G</strong></span>
+            <span><strong>A</strong></span>
+            <span><strong>L</strong></span>
+            <span><strong>L</strong></span>
+            <span><strong>E</strong></span>
+            <span><strong>R</strong></span>
+            <span><strong>Y</strong></span>
+        </h1>
+        <div class="container">
+            <div id="Carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                    <li data-target="#Carousel" data-slide-to="2"></li>
+                    <li data-target="#Carousel" data-slide-to="3"></li>
+                    <li data-target="#Carousel" data-slide-to="4"></li>
+                    <li data-target="#Carousel" data-slide-to="5"></li>
+                    <li data-target="#Carousel" data-slide-to="6"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://th.bing.com/th/id/R.bd1f71ed7e7f613414f2211c8b01d1d9?rik=v0uf41fh1gkchg&pid=ImgRaw&r=0"
+                            alt="" class="img-thumbnail" style="width:100%;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://th.bing.com/th/id/R.36e7ae3e2fa5728bcab8a2946d476830?rik=f%2fOiaetzh1k8Zg&pid=ImgRaw&r=0"
+                            alt="" class="img-thumbnail" style="width:100%;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://th.bing.com/th/id/R.dbfa1226cd888c54c63d03b5a44e323f?rik=cp7jKbipaaVftg&pid=ImgRaw&r=0"
+                            alt="" class="img-thumbnail" style="width:100%;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://th.bing.com/th/id/R.4f0f0779ed7d50ccd77e88fc24f82928?rik=dxtyR4YkT8ei4g&pid=ImgRaw&r=0"
+                            alt="" class="img-thumbnail" style="width:100%;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://fee.org/media/28883/tunisia_medieval_walls.jpg?anchor=center&mode=crop&width=1920&rnd=131735362240000000"
+                            alt="" class="img-thumbnail" style="width:100%;">
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://th.bing.com/th/id/R.3182de8f790029b3facdc1e36e5c3f13?rik=KsLBraPRl%2bOnpA&pid=ImgRaw&r=0"
+                            alt="" class="img-thumbnail" style="width:100%;">
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://th.bing.com/th/id/R.3bf85a37a5aa6dd5fb281f60cc845e9f?rik=2S7%2bsZWxlVwsew&pid=ImgRaw&r=0"
+                            alt="" class="img-thumbnail" style="width:100%;">
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#Carousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#Carousel" data-slide="next">
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+
+    </section>
+
+
+
+    <section class="Review" id="Review">
+        <h1 class="heading">
+            <span><strong>R</strong></span>
+            <span><strong>E</strong></span>
+            <span><strong>V</strong></span>
+            <span><strong>I</strong></span>
+            <span><strong>E</strong></span>
+            <span><strong>W</strong></span>
+        </h1>
+        <div class="container-fluid">
+            <div class="row content">
+                <div class="col-sm-3 sidenav">
+                    <h3> </h3><br>
+
+                    <ul class="nav nav-pills nav-stacked">
+                        <li class="active"><a href="#section1">Home</a></li>
+                        <li><a href="#section2">Travel tips</a></li>
+                        <li><a href="#section3">resources</a></li>
+                        <li><a href="#section3">Advices</a></li>
+                        <li><a href="#section4">Membership</a></li>
+                        <li><a href="#section5">photos</a></li>
+                    </ul><br>
+                    <div class="input-group">
+                        <h3></h3>
+                        <input type="text" class="form-control" placeholder="Search Blog..">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-sm-9">
+                    <h4><small>RECENT POSTS</small></h4>
+                    <hr>
+                    <h2><strong>I Love TUNISIA</strong> </h2>
+                    <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2021.</h5>
+                    <h5><span class="label label-danger">Travel</span> <span class="label label-primary">Love</span>
+                    </h5><br>
+                    <p>I am in love with this country. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+                    <br><br>
+
+                    <h4><small>RECENT POSTS</small></h4>
+                    <hr>
+                    <h2><strong> Dream destination</strong> </h2>
+                    <h5><span class="glyphicon glyphicon-time"></span> Post by John Doe, Sep 24, 2022.</h5>
+                    <h5><span class="label label-success">safety</span></h5><br>
+                    <p> Our last trip to North Africa was to Egypt, which we loved, and we couldn’t wait to do something
+                        like it again.
+                        When we first started researching our Tunisia road trip, we found Roman ruins instead of
+                        pyramids.
+                        We were intrigued, until now all we had ever heard about Tunisia was the all-inclusive beach
+                        resorts.
+                        We had no idea how many wonderful things there were to do in this under-rated country.
+                        Hopefully this Tunisia Travel Guide will help you in your planning.</p>
+                    <hr>
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                    <br><br>
+
+                    <p><span class="badge">2</span> Comments:</p><br>
+
+                    <div class="row">
+                        <div class="col-sm-2 text-center">
+                            <img src="https://cavemancircus.com/wp-content/uploads/2018/08/pretty_girls_1.jpg"
+                                class="img-circle" height="65" width="65" alt="Avatar">
+                        </div>
+                        <div class="col-sm-10">
+                            <h4>Samantha <small>Sep 29, 2021, 9:12 PM</small></h4>
+                            <p>One of our favorite stops, El Kef feels like it’s on the frontier. We certainly did not
+                                see any other tourists,
+                                or westerners on this part of the trip. The furthest they seem to go is Bulla Regia. We
+                                spent a fun night in the one restaurant that we found open.
+                                There were no women,but it was packed, and we spent hours there drinking rosé wine and
+                                talking to the people closest to our table. </p>
+                            <br>
+                        </div>
+                        <div class="col-sm-2 text-center">
+                            <img src="https://skyelitenews.com/wp-content/uploads/2020/08/25-Most-Handsome-Men-Globally-025.jpg"
+                                class="img-circle" height="65" width="65" alt="Avatar">
+                        </div>
+                        <div class="col-sm-10">
+                            <h4>John Row <small>Sep 25, 2021, 8:25 PM</small></h4>
+                            <p>I am so happySousse is a pretty city on the coast.
+                                The medina here has a night market, and we discovered it as the sun was setting.
+                                People were sitting in the square, kids playing, parents gossiping. It felt relaxed and
+                                fun.
+                                The beaches here were some of the prettiest as well..</p>
+                            <br>
+                            <p><span class="badge">1</span> Comment:</p><br>
+                            <div class="row">
+                                <div class="col-sm-2 text-center">
+                                    <img src="https://i.pinimg.com/736x/b0/c6/eb/b0c6ebe3809c09baf8a0a2e887ee73b7--handsome-guys.jpg"
+                                        class="img-circle" height="65" width="65" alt="Avatar">
+                                </div>
+                                <div class="col-xs-10">
+                                    <h4>Jacop<small> Sep 25, 2021, 8:28 PM</small></h4>
+                                    <p>I love it too! i will absolutely come again!</p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid">
+            <p></p>
+        </footer>
+    </section>
+    <section class="Contact" id="Contact">
+        <h1 class="heading">
+            <span><strong>C</strong></span>
+            <span><strong>O</strong></span>
+            <span><strong>N</strong></span>
+            <span><strong>T</strong></span>
+            <span><strong>A</strong></span>
+            <span><strong>c</strong></span>
+            <span><strong>T</strong></span>
+        </h1>
+        <div class="row">
+
+            <div class="image">
+
+                <img src="http://afktravel.com/wp-content/uploads/2014/02/tunis-door.jpg" alt="">
+            </div>
+
+            <div class="container ">
+                <form>
+
+                    <div class="input-group">
+                        <label>Full name</label>
+                        <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+                        <span id="name-error"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Phone </label>
+                        <input type="tel" placeholder="12 345 678" id="contact-phone" onkeyup="validatePhone()">
+                        <span id="phone-error"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="tags">city</label>
+                        <input type="City" placeholder="name your City" id="city" onkeyup="validatecity()">
+                        <span id="City-error"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Birthdate</label>
+                        <input type="date">
+                        <span id="Email-error"></span>
+                    </div>
+
+
+
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="Enter your Email" id="contact-email" onkeyup="validateEmail()">
+                        <span id="Email-error"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Your message</label>
+                        <textarea rows="4" placeholder="Enter your message" id="contact-message"
+                            onkeyup="validateMessage()"></textarea>
+                        <span id="message-error"></span>
+                    </div>
+
+                    <button onclick="return validateForm()" class="btn">submit</button>
+                    <span id="Submit-error"></span>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>vfvgbhnjhbgfcgvbhjnhbgvfgvbh<br>jfrgthyjukikujyhtgrfed<br>rtyhuijuhgfd
+                </p>
+            </div>
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">tunis</a>
+                <a href="#">Hammamet</a>
+                <a href="#">Sousse</a>
+                <a href="#">Nabeul</a>
+                <a href="#">Monastir</a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#">Home</a>
+                <a href="#">Book</a>
+                <a href="#">Packages</a>
+                <a href="#">Services</a>
+                <a href="#">Gallery</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+        <h1 class="credits"><span> created by TunTunisia</span> |all rights reserved| </h1>
+
+    </section>
+</body>
+
+</html>
+<header>
+</header>
+<script src="tun.js"></script>
+</body>
+
+</html>
