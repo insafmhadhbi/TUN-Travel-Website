@@ -41,11 +41,3 @@ Welcome to the **TUN Travel Website**! This is a modern, responsive web applicat
   - **jQuery**: For DOM manipulation and event handling.
   - **Font Awesome**: For icons and visual enhancements.
 
----
-
-## Installation and Usage
-
-### Prerequisites
-- A modern web browser (e.g., Chrome, Firefox, Safari).
-- No server-side dependencies required (static website).
-
